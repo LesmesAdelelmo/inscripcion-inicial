@@ -1,0 +1,39 @@
+/* --- ESTILOS GENERALES --- */
+.root {
+    -fx-background-color: #ffffff; 
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+    -fx-font-size: 14px;
+}
+
+/* Las etiquetas normales (texto normal) */
+.label {
+    -fx-text-fill: #333333; 
+}
+
+/* --- CLASE PROPIA PARA EL TÍTULO (Requisito 6) --- */
+.titulo {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1a5276; 
+}
+
+/* --- CLASE PROPIA PARA LA ACCIÓN PRINCIPAL (Requisito 6) --- */
+.boton-principal {
+    -fx-background-color: #0056b3; 
+    -fx-text-fill: #ffffff; 
+    -fx-font-weight: bold;
+    -fx-padding: 8px 15px;
+    -fx-cursor: hand;
+}
+
+/* --- REGLA CON :hover (Requisito 6) --- */
+.boton-principal:hover {
+    -fx-background-color: #004494; 
+}
+
+/* --- REGLA CON :focused PARA ACCESIBILIDAD --- */
+.boton-principal:focused {
+    -fx-border-color: #ff9900; 
+    -fx-border-width: 2px;
+    -fx-border-radius: 3px;
+}

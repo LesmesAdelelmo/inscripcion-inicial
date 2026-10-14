@@ -1,0 +1,31 @@
+Ficha de diseño previo
+
+1.- Objetivo: 
+
+Crear una aplicacion para q los interesados puedan inscribirse a un torneo de videojuegos de tres catos en 2026 y ver un resumen de los datos q introdujeron.
+
+2.- Usuarios:
+
+Judares o aficionados a los eSports. Como tienen experiencia usando ordenadores la interfaz debe ser directa y facil de usar a teclado.
+
+3.- Contexto de uso:
+
+Aplicacion de escritorio. Esta pensada para usarse en el ordenador de casa o en los puestos de inscripcion del evento.
+
+4.- Tareas:
+
+-Tarea principal: Rellenar datos de inscripcion y generar resumen.
+-tareas secundarias: Navegar desde la pantalla de inicio, desplegar los juegos, marcar opciones extra y volver a la pantalla principal.
+
+5.- Pasos:
+
+-El usuario entra y pulsa Inscribirse en la pantalla de bienvenida.
+-Rellena los campos del formulaio
+-Pula mostrar resumen o le da a la tecla intro
+-Revisa el texto que le aparece abajo con sus datos
+-Si lo necesita pula volver 
+
+6.- Informacion:
+
+- Datos de entrada: Nombre, Juego(modalidad), fecha y si trae mando
+- Datos de salida: Texto informativo de la interfaz y el bloque final con el resumen de la inscripcion.

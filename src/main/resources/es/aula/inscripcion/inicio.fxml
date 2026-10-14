@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" spacing="20.0" stylesheets="@estilos.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="es.aula.inscripcion.InicioController">
+    <padding>
+        <Insets bottom="40.0" left="40.0" right="40.0" top="40.0" />
+    </padding>
+    <Label styleClass="titulo" text="Torneo de Videojuegos 2026" />
+    <Label text="Inscríbete en el mayor torneo de 	Tres Cantos. ¡Demuestra que vas volando!" wrapText="true" textAlignment="CENTER" />
+    <Button styleClass="boton-principal" mnemonicParsing="false" onAction="#irAInscripcion" text="Inscribirse" />
+</VBox>
