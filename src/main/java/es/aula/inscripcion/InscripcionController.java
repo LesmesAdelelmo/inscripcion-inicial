@@ -9,6 +9,7 @@ import javafx.scene.Parent;
 import javafx.scene.control.CheckBox;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.DatePicker;
+import java.time.LocalDate;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
@@ -40,7 +41,7 @@ public class InscripcionController {
     public void mostrarResumen(ActionEvent event) {
         String textoNombre    = nombreField.getText();
         String valorModalidad = modalidadCombo.getValue();
-        Object valorFecha     = fechaPicker.getValue();
+        LocalDate valorFecha  = fechaPicker.getValue();
         
         String nombre     = (textoNombre != null && !textoNombre.trim().isEmpty()) ? textoNombre : "Sin nombre";
         String modalidad  = (valorModalidad != null) ? valorModalidad : "Ninguna";
