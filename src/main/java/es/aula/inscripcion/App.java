@@ -14,8 +14,10 @@ public class App extends Application {
             App.class.getResource("/es/aula/inscripcion/inicio.fxml")
         );
         Parent root = loader.load();
-        Scene scene = new Scene(root, 640, 480);
-        stage.setTitle("Inscripción a una actividad");
+        Scene scene = new Scene(root, 800, 650);
+        stage.setTitle("Torneo de Videojuegos - Gestión de inscripciones");
+        stage.setMinWidth(700);
+        stage.setMinHeight(600);
         stage.setScene(scene);
         stage.show();
     }

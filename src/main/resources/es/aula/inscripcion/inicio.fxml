@@ -9,6 +9,6 @@
         <Insets bottom="40.0" left="40.0" right="40.0" top="40.0" />
     </padding>
     <Label styleClass="titulo" text="Torneo de Videojuegos 2026" />
-    <Label text="Inscríbete en el mayor torneo de 	Tres Cantos. ¡Demuestra que vas volando!" wrapText="true" textAlignment="CENTER" />
-    <Button styleClass="boton-principal" mnemonicParsing="false" onAction="#irAInscripcion" text="Inscribirse" />
+    <Label text="Gestiona las inscripciones del mayor torneo de Tres Cantos. ¡Demuestra que vas volando!" wrapText="true" textAlignment="CENTER" />
+    <Button styleClass="boton-principal" mnemonicParsing="false" onAction="#irAGestion" text="Gestionar inscripciones" defaultButton="true" />
 </VBox>

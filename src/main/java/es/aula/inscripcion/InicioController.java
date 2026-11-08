@@ -11,9 +11,9 @@ import javafx.stage.Stage;
 public class InicioController {
 
     @FXML
-    public void irAInscripcion(ActionEvent event) throws IOException {
-        Parent vistaInscripcion = FXMLLoader.load(getClass().getResource("inscripcion.fxml"));
+    public void irAGestion(ActionEvent event) throws IOException {
+        Parent vistaGestion = FXMLLoader.load(getClass().getResource("gestion.fxml"));
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-        stage.getScene().setRoot(vistaInscripcion);
+        stage.getScene().setRoot(vistaGestion);
     }
 }
